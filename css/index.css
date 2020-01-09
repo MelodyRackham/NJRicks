@@ -1,0 +1,150 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.bst-header {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav {
+  vertical-align: top;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 35px;
+  padding-top: 20px;
+  /* border: 1px solid red; */
+}
+header nav a {
+  margin-left: 65px;
+  font-size: 18px;
+  color: gray;
+  text-decoration: none;
+}
+/* Go in late and add hover to nav links */
+
+h1 {
+  font-size: 45px;
+  /* border: 2px solid purple; */
+}
+
+h2 {
+  font-size: 35px;
+  padding-bottom: 30px;
+}
+
+.mountain {
+  height: 50vh;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.main-content {
+  /* border: 2px solid red; */
+  padding: 60px;
+  margin-left: 80px;
+
+  width: 75%;
+}
+
+.main-content p {
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
+  font-size: 16px;
+  background-color: lightgrey;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  padding-top: 10px;
+}
